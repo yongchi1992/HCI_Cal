@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    	<meta charset="UTF-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="Calculator.css">
+        <script src="Calculator.js"></script>
+    </head>
+
+    <body>
+
+        <div class="global">
+
+        	<div class="displayrow" id="content">0</div>
+        	<div id="operator"></div>
+
+        	<div class="rows">
+				<button>MC</button>
+				<button>M+</button>
+				<button>M-</button>
+				<button>MR</button>
+			</div>
+
+			<div class="rows">
+				<button onclick="appContent(this)">C</button>
+				<button onclick="appContent(this)">±</button>
+				<button onclick="appContent(this)">÷</button>
+				<button onclick="appContent(this)">×</button>
+			</div>
+
+			<div class="rows">
+				<button onclick="appContent(this)">7</button>
+				<button onclick="appContent(this)">8</button>
+				<button onclick="appContent(this)">9</button>
+				<button onclick="appContent(this)">-</button>
+			</div>
+
+			<div class="rows">
+				<button onclick="appContent(this)">4</button>
+				<button onclick="appContent(this)">5</button>
+				<button onclick="appContent(this)">6</button>
+				<button onclick="appContent(this)">+</button>
+			</div>
+
+			<div class="part">
+
+				<div class="rows">
+					<button onclick="appContent(this)">1</button>
+					<button onclick="appContent(this)">2</button>
+					<button onclick="appContent(this)">3</button>
+					<button class="equalbutton"  onclick="appContent(this)">=</button>
+				</div>
+
+				<div class="endrows">
+					<button class="zerobutton" onclick="appContent(this)">0</button>
+					<button onclick="appContent(this)">.</button>
+				</div>
+
+			</div>
+
+		</div>
+
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+

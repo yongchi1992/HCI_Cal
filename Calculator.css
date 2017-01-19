@@ -1,0 +1,108 @@
+.global{
+	height: 680px;
+	width: 500px;
+	
+	padding-top: 10px;
+	box-shadow: 5px 5px 20px #888888;
+	margin: 50px;
+
+	background: darkgrey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(lightgrey, darkgrey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(lightgrey, darkgrey); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(lightgrey, darkgrey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(lightgrey, darkgrey); /* Standard syntax (must be last) */
+
+}
+
+.rows{
+	height: 50px;
+	margin: 20px; 
+}
+
+.displayrow{
+	height: 110px;
+	margin: 20px; 
+	background: #f0fbc8;
+	border-radius: 10px;
+	border:10px solid;
+	
+	border-left-color: grey;
+	border-top-color: black;
+	border-right-color: grey;
+	border-bottom-color: #B3B3B3;
+	/*box-shadow: 0px 5px 0px grey;*/
+
+	text-align: right;
+	font-size: 35px;
+	font-family: Arial;
+
+	padding-right: 25px;
+	padding-top:10px;
+	padding-bottom:0px;
+	padding-left:25px;
+
+	line-height: 50px;
+}
+
+.endrows{
+	height: 50px;
+	margin: 20px;
+	align-content: flex-end;
+}
+
+
+button {
+	color: black;
+	background: lightgrey;
+	width:100px;
+	height:60px;
+	margin: 5px;
+	font-size:25px;
+	font-weight: bolder;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px grey;
+	text-align: center;
+
+	background: -webkit-linear-gradient(lightgrey, darkgrey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(lightgrey, darkgrey); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(lightgrey, darkgrey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(lightgrey, darkgrey);
+
+
+
+
+}
+
+button:hover{
+	color:blue;
+}
+
+button:active{
+	color:grey;
+	background: white;
+}
+
+.zerobutton{
+	width:215px;
+}
+
+.equalbutton{
+	height:130px;
+	float:right;
+}
+
+.part{
+	width:492px;
+	height: 600px;
+}
+
+#operator {
+    width: 220px;
+    height: 12px;
+    position: relative;
+    top: -80px;
+    left: 50px;
+    text-align: right;
+    font-size: 35px;
+	font-family: Arial;
+}
